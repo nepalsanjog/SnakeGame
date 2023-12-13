@@ -8,6 +8,7 @@ public class SnakeGame extends JFrame{
         add(new Board());
         pack();
 
+        //set window to center based on the moniter size
         setLocationRelativeTo(null);
         setResizable(false);
     }
