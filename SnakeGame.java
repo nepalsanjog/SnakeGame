@@ -8,16 +8,11 @@ public class SnakeGame extends JFrame{
         add(new Board());
         pack();
 
-        setLocation(300,300);
-        setVisible(true);
         setLocationRelativeTo(null);
+        setResizable(false);
     }
-    
 
-    public static void main(String[] args){
-
-        new SnakeGame();
-
-
+    public static void main(String[] args) {
+        new SnakeGame().setVisible(true);
     }
 }
